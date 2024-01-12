@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-signature {
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 8pt;
+            line-height: 1.6;
+            color: #000;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .left-column {
+            text-align: left; /* Align text to the left */
+            width: calc(100% - 215px); /* Adjusted width to move text as far left as possible */
+        }
+
+        .right-column {
+            width: 200px; /* Adjust as needed */
+        }
+
+        .logo img {
+            width: 6cm; /* Increased size by 50% */
+            height: auto;
+            margin-bottom: 10px;
+            margin-right: 15px; /* Added margin to separate logo from text */
+        }
+
+        .text-content {
+            flex-grow: 1; /* Expand the text content to fill available space */
+        }
+
+        .text-content p {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .text-content p:first-child {
+            font-size: 22pt; /* Font size for "Graphic Design & Illustration" */
+            font-weight: bold;
+        }
+
+        .text-content p:nth-child(2),
+        .text-content p:nth-child(3) {
+            font-size: 16pt;
+            font-weight: bold; /* Font size and bold for "Elevating Brands through" and "creative design" */
+            color: #000; /* Black color */
+        }
+
+        .pink-text {
+            color: #cfbec9;
+            font-size: 6pt;
+        }
+
+        .picture img {
+            height: auto;
+            width: 200%; /* Make the picture twice as big */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-signature">
+        <div class="left-column">
+            <div class="logo">
+                <img src="https://github.com/Lillyriemer/signatures/blob/f2a2d003abcc174d0427130fb708633c21484235/Signatur%20Lolo%20kl.png" alt="Logo">
+            </div>
+            <div class="text-content">
+                <p>Graphic Design & Illustration</p>
+                <p>Elevating Brands through</p>
+                <p>creative design</p>
+                <p><a href="http://www.lillyriemer.com" style="color: #000; text-decoration: none;">www.lillyriemer.com</a></p>
+                <p><a href="tel:+46705453070" style="color: #000; text-decoration: none;">+46 70 545 30 70</a></p>
+                <p>Nykroppagatan 14</p>
+                <p>12332 Stockholm</p>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="picture">
+                <img src="https://github.com/Lillyriemer/signatures/blob/f2a2d003abcc174d0427130fb708633c21484235/Signatur%20Worm_kl.png" alt="Picture">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
